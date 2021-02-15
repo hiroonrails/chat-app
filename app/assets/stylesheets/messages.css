@@ -29,6 +29,7 @@
   padding: 14px;
   color: deepskyblue;
   border: 1px solid lightblue;
+  text-decoration:none;
 }
 
 .rooms{
@@ -44,6 +45,7 @@
 
  .room-name a{
    color: white;
+   text-decoration:none;
  }
 
 .main-chat{
