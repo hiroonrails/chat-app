@@ -113,6 +113,11 @@
   margin-bottom: 40px;
 }
 
+.form-input{
+  width:100%;
+  background-color: white;
+}
+
 .form{
   background-color: #dddddd;
   height: 90px;
@@ -120,30 +125,14 @@
   display: flex;
 }
 
-.left-form{
-  width:100%;
-  background-color: white;
-  display: flex;
-}
-
-.message-button{
-  padding: 10px;
+.form-message{
   border: none;
   height: 50px;
   width: 100%;
+  padding-left: 10px;
 }
 
-.submit-button{
-  font-size: 16px;
-  padding: 0 20px;
-  color: white;
-  background-color: #38AEF0;
-  border: none;
-  margin-left: 15px;
-  height: 50px;
-}
-
-.form-image {
+.form-image{
   font-size: 12px;
   background-color: lightblue;
   color: white;
@@ -151,6 +140,16 @@
   width: 60px;
   margin: 5px 10px;
   text-align: center;
+}
+
+.form-submit{
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
 }
 
 .hidden {
