@@ -110,6 +110,12 @@
   margin-bottom: 40px;
 }
 
+.form-input{
+  width:100%;
+  background-color: white;
+  display: flex;
+}
+
 .form{
   background-color: #dddddd;
   height: 90px;
